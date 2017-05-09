@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12323, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 18 - Grey
+  m_EditorClassIdentifier: 
+  m_Presets:
+  - m_Name: White
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Name: Grey 50
+    m_Color: {r: 0.9764706, g: 0.9764706, b: 0.9764706, a: 1}
+  - m_Name: Grey 100
+    m_Color: {r: 0.95686275, g: 0.95686275, b: 0.95686275, a: 1}
+  - m_Name: Grey 200
+    m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
+  - m_Name: Grey 400
+    m_Color: {r: 0.7411765, g: 0.7411765, b: 0.7411765, a: 1}
+  - m_Name: Grey 300
+    m_Color: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
+  - m_Name: Grey 500
+    m_Color: {r: 0.61960787, g: 0.61960787, b: 0.61960787, a: 1}
+  - m_Name: Grey 600
+    m_Color: {r: 0.45882353, g: 0.45882353, b: 0.45882353, a: 1}
+  - m_Name: Grey 700
+    m_Color: {r: 0.38039216, g: 0.38039216, b: 0.38039216, a: 1}
+  - m_Name: Grey 800
+    m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
+  - m_Name: Grey 900
+    m_Color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 0.172}
+  - m_Name: List BG
+    m_Color: {r: 0.228, g: 0.228, b: 0.228, a: 0.665}
+  - m_Name: Touch Default
+    m_Color: {r: 0.6911765, g: 0.7955376, b: 1, a: 0.21176471}
+  - m_Name: 
+    m_Color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 0.172}
+  - m_Name: TouchOn
+    m_Color: {r: 0.5229239, g: 0.6046296, b: 0.7647059, a: 0.21176471}
+  - m_Name: ControllerSet1
+    m_Color: {r: 1, g: 0.6911765, b: 0.6911765, a: 0.21176471}
+  - m_Name: ControllerSet2
+    m_Color: {r: 0.29344505, g: 0.5955882, b: 0.23648356, a: 0.21176471}
+  - m_Name: ControllerSet3
+    m_Color: {r: 0.6911765, g: 0.7572008, b: 1, a: 0.21176471}
+  - m_Name: ControllerSet4
+    m_Color: {r: 0.48713234, g: 0.50519776, b: 0.625, a: 0.216}
+  - m_Name: Base Sprite Color
+    m_Color: {r: 1, g: 1, b: 1, a: 0.7058824}
+  - m_Name: Rust
+    m_Color: {r: 0.8980393, g: 0.47058827, b: 0.23529413, a: 1}
+  - m_Name: Black
+    m_Color: {r: 0, g: 0, b: 0, a: 1}
