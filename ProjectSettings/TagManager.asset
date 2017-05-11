@@ -9,6 +9,7 @@ TagManager:
   - Set
   - PuppetPart
   - Big
+  - MaterialUI
   layers:
   - Default
   - TransparentFX
