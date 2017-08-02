@@ -42,7 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 11
   m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
-    serializedVersion: 8
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -87,7 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-  m_ShadowMaskMode: 2
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -614,6 +614,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &8022920
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,6 +670,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &11822385
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,6 +960,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &24345653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,6 +1098,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &26383068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,6 +1816,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &54526577
 Transform:
   m_ObjectHideFlags: 0
@@ -2576,6 +2583,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &58815111
 Transform:
   m_ObjectHideFlags: 0
@@ -2646,6 +2655,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &61413651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3153,6 +3163,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &69495563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3295,6 +3307,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &70115685
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3404,6 +3417,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &70630612
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3992,6 +4006,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &79498127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4556,7 +4571,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &93796989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4769,8 +4784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /mousescrollwheel
-  _oscAddresses:
-  - /mousescrollwheel
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -5019,6 +5033,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &108267583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5441,6 +5456,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &111619054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5453,8 +5470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /legcontroller
-  _oscAddresses:
-  - /legcontroller
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -5876,6 +5892,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &116137604
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,6 +6120,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &116137613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6114,8 +6134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller4
-  _oscAddresses:
-  - /controller4
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -7063,6 +7082,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &149501298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7199,6 +7219,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &150680941
 GameObject:
   m_ObjectHideFlags: 0
@@ -7761,6 +7783,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &158642001
 GameObject:
   m_ObjectHideFlags: 0
@@ -7986,6 +8010,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &159809724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8537,6 +8562,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &176147758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9028,6 +9054,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &184343431
 GameObject:
   m_ObjectHideFlags: 0
@@ -9369,6 +9397,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &190704881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9642,6 +9671,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &194218894
 GameObject:
   m_ObjectHideFlags: 0
@@ -10716,6 +10747,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &206293866
 Transform:
   m_ObjectHideFlags: 0
@@ -11058,6 +11091,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &214671885
 Transform:
   m_ObjectHideFlags: 0
@@ -11138,6 +11173,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -11223,6 +11272,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &216190996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11904,6 +11954,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &237955431
 GameObject:
   m_ObjectHideFlags: 0
@@ -12599,6 +12650,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &247876387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12950,6 +13002,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &250469742
 Transform:
   m_ObjectHideFlags: 0
@@ -13553,6 +13607,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &255933549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13893,6 +13948,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &260033024
 GameObject:
   m_ObjectHideFlags: 0
@@ -14198,6 +14255,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!233 &261399976
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -14328,6 +14387,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &263598802
 GameObject:
   m_ObjectHideFlags: 0
@@ -14600,6 +14661,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &279449487
 GameObject:
   m_ObjectHideFlags: 0
@@ -14767,6 +14830,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &279449494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16442,6 +16507,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &325651445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17032,6 +17098,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &328833821
 Transform:
   m_ObjectHideFlags: 0
@@ -17264,6 +17332,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &333381898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17550,6 +17619,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &339647445
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -17756,6 +17826,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!222 &341690973
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17865,6 +17936,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &342495246
 Transform:
   m_ObjectHideFlags: 0
@@ -18661,6 +18734,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &345464026
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -18819,6 +18894,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &348966324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19002,6 +19078,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &354770582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19363,6 +19440,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &361408463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19615,6 +19693,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &367829861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19931,6 +20010,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &372362048
 GameObject:
   m_ObjectHideFlags: 0
@@ -19991,6 +20071,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &372362051
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -20683,6 +20764,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &377816532
 Transform:
   m_ObjectHideFlags: 0
@@ -21339,6 +21422,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &382749894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21734,6 +21818,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &385123593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21920,6 +22005,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &390058365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22232,6 +22318,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &395028867
 GameObject:
   m_ObjectHideFlags: 0
@@ -22497,6 +22585,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &398460403
 GameObject:
   m_ObjectHideFlags: 0
@@ -22700,6 +22790,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &398460411
 Transform:
   m_ObjectHideFlags: 0
@@ -22912,6 +23004,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &403466367
 GameObject:
   m_ObjectHideFlags: 0
@@ -22966,6 +23060,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &403466370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23100,6 +23195,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &413143128
 GameObject:
   m_ObjectHideFlags: 0
@@ -23647,6 +23744,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &420711740
 Transform:
   m_ObjectHideFlags: 0
@@ -24000,6 +24099,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &447307436
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -24499,6 +24599,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &450070999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24842,6 +24943,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &463559771
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -24961,6 +25063,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &465252385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25101,6 +25204,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &466063875
 Transform:
   m_ObjectHideFlags: 0
@@ -25515,6 +25620,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &480833185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26419,6 +26525,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &496065509
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -27289,6 +27396,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &520979265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27537,6 +27645,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &522230573
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -27656,6 +27765,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &527772528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27752,6 +27862,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &528608714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27861,6 +27972,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &529691073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28163,6 +28275,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &533186349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28904,6 +29017,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &541414017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29976,6 +30090,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &555468865
 GameObject:
   m_ObjectHideFlags: 0
@@ -30030,6 +30146,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &558091696
 GameObject:
   m_ObjectHideFlags: 0
@@ -30228,6 +30345,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &558091704
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -30352,6 +30471,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &558238232
 Transform:
   m_ObjectHideFlags: 0
@@ -30420,6 +30541,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &558960743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30664,6 +30786,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &562328851
 Transform:
   m_ObjectHideFlags: 0
@@ -31381,6 +31505,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &573153430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31474,6 +31599,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &576205798
 GameObject:
   m_ObjectHideFlags: 0
@@ -31529,6 +31655,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &576205801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31646,6 +31773,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &576272729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31818,6 +31946,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &581389727
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -31924,6 +32053,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &581879506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32130,6 +32260,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!222 &583692590
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32361,6 +32492,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &584630901
 GameObject:
   m_ObjectHideFlags: 0
@@ -32869,6 +33002,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &593910773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33033,6 +33167,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &597634937
 GameObject:
   m_ObjectHideFlags: 0
@@ -33399,6 +33534,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &601342532
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -33766,6 +33903,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &603893727
 GameObject:
   m_ObjectHideFlags: 0
@@ -33820,6 +33959,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &603893730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34218,6 +34358,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &606239590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34450,6 +34592,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &612699192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34553,6 +34696,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &615725676
 GameObject:
   m_ObjectHideFlags: 0
@@ -34667,6 +34811,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &616372454
 GameObject:
   m_ObjectHideFlags: 0
@@ -34734,6 +34880,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &616372458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34993,6 +35140,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &618566982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35110,6 +35258,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &620499687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35256,6 +35405,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &620688847
 Transform:
   m_ObjectHideFlags: 0
@@ -35639,6 +35790,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &628565512
 Transform:
   m_ObjectHideFlags: 0
@@ -35784,6 +35937,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &630367370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36391,6 +36545,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &637995058
 GameObject:
   m_ObjectHideFlags: 0
@@ -36445,6 +36600,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &637995061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37706,6 +37862,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &652390540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37785,6 +37942,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &653257503
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -38315,6 +38473,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &658964501
 GameObject:
   m_ObjectHideFlags: 0
@@ -38567,6 +38727,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &661360324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38809,6 +38970,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &665837901
 Transform:
   m_ObjectHideFlags: 0
@@ -38950,6 +39113,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &667779676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39558,6 +39722,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &682911688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39838,6 +40004,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &683995410
 GameObject:
   m_ObjectHideFlags: 0
@@ -40091,6 +40259,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!255 &683995419
 FixedJoint2D:
   m_ObjectHideFlags: 0
@@ -40245,6 +40415,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &685233121
 Transform:
   m_ObjectHideFlags: 0
@@ -40404,6 +40576,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &687286687
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -41183,6 +41356,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &701259084
 GameObject:
   m_ObjectHideFlags: 0
@@ -41288,6 +41462,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &706060262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41368,6 +41543,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &708086851
 Transform:
   m_ObjectHideFlags: 0
@@ -41480,6 +41657,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &710721379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42255,6 +42433,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &718156363
 Transform:
   m_ObjectHideFlags: 0
@@ -42520,6 +42700,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &718356584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42651,6 +42833,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &723411206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42742,6 +42925,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &725256522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43094,6 +43278,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &726985509
 Transform:
   m_ObjectHideFlags: 0
@@ -43179,6 +43365,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &727087635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43661,6 +43848,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &737676874
 GameObject:
   m_ObjectHideFlags: 0
@@ -44126,6 +44314,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &747174565
 Transform:
   m_ObjectHideFlags: 0
@@ -44449,6 +44639,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &755495316
 GameObject:
   m_ObjectHideFlags: 0
@@ -44517,6 +44709,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &755495320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44663,6 +44856,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &761144977
 Transform:
   m_ObjectHideFlags: 0
@@ -44826,6 +45021,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &763686973
 GameObject:
   m_ObjectHideFlags: 0
@@ -44921,6 +45118,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &766406467
 GameObject:
   m_ObjectHideFlags: 0
@@ -45383,6 +45582,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &782275804
 GameObject:
   m_ObjectHideFlags: 0
@@ -45602,6 +45803,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &785076835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45941,6 +46143,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &786773487
 Transform:
   m_ObjectHideFlags: 0
@@ -46394,6 +46598,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &794238302
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -47163,6 +47369,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &813799179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47374,7 +47581,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &814456974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47454,7 +47661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visible: 1
   invisible: 0
-  drawLines: 1
+  drawLines: 0
   b_controllerSet1: 0
   b_controllerSet2: 1
   b_controllerSet3: 1
@@ -47637,6 +47844,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &818725944
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -47863,6 +48071,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &828020332
 Transform:
   m_ObjectHideFlags: 0
@@ -48362,6 +48572,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &842932389
 GameObject:
   m_ObjectHideFlags: 0
@@ -48554,6 +48766,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &849371135
 Transform:
   m_ObjectHideFlags: 0
@@ -48923,6 +49137,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &858279669
 Transform:
   m_ObjectHideFlags: 0
@@ -49722,6 +49938,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &874251406
 Transform:
   m_ObjectHideFlags: 0
@@ -50004,6 +50222,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &878646560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50097,6 +50316,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &880194905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50764,6 +50984,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &885410982
 Transform:
   m_ObjectHideFlags: 0
@@ -50933,6 +51155,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &891359518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51088,6 +51311,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &891646608
 Transform:
   m_ObjectHideFlags: 0
@@ -51288,6 +51513,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &891757132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51461,6 +51688,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &891767192
 Transform:
   m_ObjectHideFlags: 0
@@ -52443,6 +52672,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &910455590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52925,6 +53155,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &915443738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53566,6 +53797,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &926020469
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -54234,6 +54466,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &933379037
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -54623,6 +54857,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &940213556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54853,6 +55088,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &943229064
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -55038,6 +55275,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &950101983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55125,6 +55363,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &957077887
 GameObject:
   m_ObjectHideFlags: 0
@@ -55220,6 +55459,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &957621486
 GameObject:
   m_ObjectHideFlags: 0
@@ -55280,6 +55521,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &957621488
 Transform:
   m_ObjectHideFlags: 0
@@ -55786,6 +56029,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &965692417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56159,6 +56403,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &970705748
 Transform:
   m_ObjectHideFlags: 0
@@ -56309,6 +56555,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &977684163
 GameObject:
   m_ObjectHideFlags: 0
@@ -56367,6 +56614,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &977684166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56932,6 +57180,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &983580949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57135,6 +57384,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &993438346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57449,6 +57699,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1000087736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57925,6 +58176,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1011268089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58214,6 +58466,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
+  m_LayoutPriority: 1
 --- !u!1 &1014016059
 GameObject:
   m_ObjectHideFlags: 0
@@ -58269,6 +58522,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1014016062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58602,6 +58856,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1015299509
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -58708,6 +58963,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1020046492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58836,6 +59092,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1020636073
 GameObject:
   m_ObjectHideFlags: 0
@@ -58894,6 +59152,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1020636076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59174,6 +59433,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!222 &1021081502
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -59514,6 +59774,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &1027500850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59846,6 +60108,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1033719618
 Transform:
   m_ObjectHideFlags: 0
@@ -60038,8 +60302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /bodycontroller
-  _oscAddresses:
-  - /bodycontroller
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -60236,6 +60499,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1038480474
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -60504,6 +60768,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1046631457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60905,6 +61170,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1048447068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61575,6 +61841,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1056714843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61865,6 +62132,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1063894635
 Transform:
   m_ObjectHideFlags: 0
@@ -62104,6 +62373,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1067869019
 GameObject:
   m_ObjectHideFlags: 0
@@ -62515,6 +62786,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1071808477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63420,6 +63692,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!222 &1090049820
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -63535,6 +63808,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1091392379
 GameObject:
   m_ObjectHideFlags: 0
@@ -65067,6 +65341,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1126808811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65477,6 +65752,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!222 &1143432782
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -66081,6 +66357,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1154451856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66467,6 +66744,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!222 &1158240743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -67068,6 +67346,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1168538858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67179,6 +67458,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1175339325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67511,6 +67791,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1183832412
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -67761,6 +68042,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1192204721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67887,6 +68169,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1193242302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68211,6 +68494,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &1193576073
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -68287,6 +68572,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1194048558
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -68393,6 +68679,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1195736308
 GameObject:
   m_ObjectHideFlags: 0
@@ -68691,6 +68978,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1197917892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69091,6 +69379,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1206592460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69511,6 +69800,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1210441090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70092,6 +70382,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1221141961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70439,6 +70730,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1228911843
 GameObject:
   m_ObjectHideFlags: 0
@@ -70734,6 +71027,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1229592616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70932,6 +71226,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1239706344
 GameObject:
   m_ObjectHideFlags: 0
@@ -72178,6 +72473,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1260921606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72586,6 +72882,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1263380756
 GameObject:
   m_ObjectHideFlags: 0
@@ -72782,6 +73080,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1267263242
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -73138,6 +73437,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1268806550
 Transform:
   m_ObjectHideFlags: 0
@@ -73468,6 +73769,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &1269267275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73740,6 +74043,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1274420523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74031,6 +74335,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1278620556
 GameObject:
   m_ObjectHideFlags: 0
@@ -74387,6 +74693,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1279223387
 Transform:
   m_ObjectHideFlags: 0
@@ -74455,6 +74763,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1281333199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74601,6 +74910,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1282834651
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -74817,6 +75127,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1284696587
 Transform:
   m_ObjectHideFlags: 0
@@ -74956,6 +75268,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1285481646
 Transform:
   m_ObjectHideFlags: 0
@@ -75029,6 +75343,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1285493188
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -75377,6 +75692,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1286246755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75530,6 +75846,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1290016833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75803,6 +76120,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1300358042
 GameObject:
   m_ObjectHideFlags: 0
@@ -75968,6 +76286,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1302018766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76536,6 +76855,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1307036171
 GameObject:
   m_ObjectHideFlags: 0
@@ -76900,6 +77221,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1311135065
 GameObject:
   m_ObjectHideFlags: 0
@@ -77437,6 +77759,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1327094773
 GameObject:
   m_ObjectHideFlags: 0
@@ -77851,6 +78175,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1334386273
 Transform:
   m_ObjectHideFlags: 0
@@ -77966,6 +78292,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1335057324
 Transform:
   m_ObjectHideFlags: 0
@@ -78056,6 +78384,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1338484729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78487,6 +78816,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1344905253
 GameObject:
   m_ObjectHideFlags: 0
@@ -79056,6 +79387,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &1348280243
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -79129,6 +79462,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1348316258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79469,6 +79803,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1352862700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79781,6 +80116,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1364236905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80197,6 +80533,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &1365740496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80209,8 +80547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller1
-  _oscAddresses:
-  - /controller1
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 1351674425}
@@ -80279,6 +80616,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1368461443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81299,6 +81637,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1399728127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81517,6 +81856,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1409949280
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -82058,6 +82398,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1417346065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83192,6 +83533,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &1435950862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83204,8 +83547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller3
-  _oscAddresses:
-  - /controller3
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -83274,6 +83616,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1438941581
 GameObject:
   m_ObjectHideFlags: 0
@@ -83753,6 +84096,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1439844436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83903,6 +84247,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1441923386
 GameObject:
   m_ObjectHideFlags: 0
@@ -84442,6 +84787,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1446881695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84780,6 +85126,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1455858862
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -84968,6 +85315,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!60 &1456542285
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -85118,6 +85467,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1456758907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85686,6 +86036,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1464359064
 Transform:
   m_ObjectHideFlags: 0
@@ -85943,6 +86295,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1467543730
 Transform:
   m_ObjectHideFlags: 0
@@ -87202,6 +87556,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1504424551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87297,6 +87652,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1506175902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87398,6 +87754,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1508189722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87493,6 +87850,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1509086872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87834,6 +88192,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1515108654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88003,6 +88362,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1517525693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88307,6 +88667,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1526778215
 GameObject:
   m_ObjectHideFlags: 0
@@ -88639,6 +89001,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1527702217
 Transform:
   m_ObjectHideFlags: 0
@@ -88709,6 +89073,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1529274707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89503,6 +89868,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1541996670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89585,6 +89951,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1547441652
 GameObject:
   m_ObjectHideFlags: 0
@@ -89721,6 +90088,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1548275865
 GameObject:
   m_ObjectHideFlags: 0
@@ -90012,6 +90380,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1552054006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90271,6 +90640,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1556609919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90361,6 +90731,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1558214345
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -90472,6 +90843,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1564927793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90608,6 +90980,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1566106466
 GameObject:
   m_ObjectHideFlags: 0
@@ -90663,6 +91037,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1566106469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91691,6 +92066,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1583706740
 Transform:
   m_ObjectHideFlags: 0
@@ -91764,6 +92141,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1584708474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92265,6 +92643,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1594680045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92418,6 +92797,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1596068387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93121,6 +93501,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1606960861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93950,6 +94331,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1620130974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94037,6 +94419,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1620747350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94370,6 +94753,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &1624834384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94382,8 +94767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller5
-  _oscAddresses:
-  - /controller5
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -94493,6 +94877,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1628228238
 GameObject:
   m_ObjectHideFlags: 0
@@ -95284,6 +95670,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &1641895289
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -95417,6 +95805,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1642235417
 Transform:
   m_ObjectHideFlags: 0
@@ -96167,6 +96557,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1646895173
 Transform:
   m_ObjectHideFlags: 0
@@ -96363,6 +96755,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1652445497
 GameObject:
   m_ObjectHideFlags: 0
@@ -96657,6 +97051,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1658886036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97032,6 +97427,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1671653045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97286,6 +97682,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1673117399
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -97770,6 +98167,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1684143858
 GameObject:
   m_ObjectHideFlags: 0
@@ -98892,6 +99290,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1701327869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99320,6 +99719,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &1704602757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99332,8 +99733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller6
-  _oscAddresses:
-  - /controller6
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -99842,6 +100242,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &1705685707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99934,8 +100336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller2
-  _oscAddresses:
-  - /controller2
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -100254,6 +100655,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1715468124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100557,6 +100959,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1719542556
 GameObject:
   m_ObjectHideFlags: 0
@@ -100706,6 +101109,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1720817080
 GameObject:
   m_ObjectHideFlags: 0
@@ -100800,6 +101204,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1723690629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101219,6 +101624,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1727641100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101504,6 +101910,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1734046190
 Transform:
   m_ObjectHideFlags: 0
@@ -102178,6 +102586,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1742019273
 Transform:
   m_ObjectHideFlags: 0
@@ -102402,6 +102812,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1756444735
 Transform:
   m_ObjectHideFlags: 0
@@ -102934,6 +103346,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1758359379
 GameObject:
   m_ObjectHideFlags: 0
@@ -103018,6 +103432,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1759674595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103108,6 +103523,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1759753971
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -103407,6 +103823,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1769047996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103677,6 +104094,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1772716803
 Transform:
   m_ObjectHideFlags: 0
@@ -103758,6 +104177,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1772793260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104516,6 +104936,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1778270066
 GameObject:
   m_ObjectHideFlags: 0
@@ -104573,6 +104995,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1778270069
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -105222,6 +105645,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1792607530
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -105742,6 +106166,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1801826691
 Transform:
   m_ObjectHideFlags: 0
@@ -106151,6 +106577,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1808340645
 GameObject:
   m_ObjectHideFlags: 0
@@ -106649,6 +107076,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1816718801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106898,6 +107326,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1816806400
 Transform:
   m_ObjectHideFlags: 0
@@ -107368,6 +107798,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1820220069
 GameObject:
   m_ObjectHideFlags: 0
@@ -107589,6 +108021,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1820628494
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -107695,6 +108128,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1820722155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108060,6 +108494,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1827830332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108449,6 +108884,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1836527633
 GameObject:
   m_ObjectHideFlags: 0
@@ -108618,6 +109055,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1839053074
 GameObject:
   m_ObjectHideFlags: 0
@@ -108672,6 +109111,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1839053077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108759,6 +109199,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1840412382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108939,6 +109380,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1845757591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109492,6 +109934,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!114 &1850559447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110074,6 +110518,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1856117309
 GameObject:
   m_ObjectHideFlags: 0
@@ -110308,6 +110754,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1862649051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110772,6 +111219,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1875419801
 GameObject:
   m_ObjectHideFlags: 0
@@ -111520,6 +111969,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1892659142
 GameObject:
   m_ObjectHideFlags: 0
@@ -111581,6 +112032,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &1892659145
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -112261,6 +112713,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!222 &1897504381
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -112359,6 +112812,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!222 &1899137823
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -113433,6 +113887,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1919735948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113616,6 +114071,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1923012007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113711,6 +114167,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1924384766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114416,6 +114873,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1938605313
 GameObject:
   m_ObjectHideFlags: 0
@@ -114745,6 +115203,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1950163991
 GameObject:
   m_ObjectHideFlags: 0
@@ -115305,6 +115764,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1950844159
 Transform:
   m_ObjectHideFlags: 0
@@ -115428,6 +115889,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1953554279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115939,6 +116401,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1965577765
 GameObject:
   m_ObjectHideFlags: 0
@@ -116083,6 +116547,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &1965577771
 Transform:
   m_ObjectHideFlags: 0
@@ -117057,6 +117523,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &1991650586
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -117626,6 +118094,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1998582949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117985,6 +118454,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2007905087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118553,7 +119023,7 @@ MonoBehaviour:
   intensity: 0.396
   chromaticAberration: 0
   axialAberration: 4.43
-  blur: 0.508
+  blur: 0.74
   blurSpread: 1
   luminanceDependency: 0.001
   blurDistance: 0.001
@@ -118567,7 +119037,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2015662584}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 646b5bc27a658f447b1d929fd5ffbd70, type: 3}
   m_Name: 
@@ -118722,7 +119192,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2015662584}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bade397de0db6634686b451e10dc2edc, type: 3}
   m_Name: 
@@ -118731,15 +119201,15 @@ MonoBehaviour:
   Mode: 0
   Color: {r: 1, g: 0, b: 0, a: 1}
   Center: {x: 0.5, y: 0.5}
-  Sharpness: 10
-  Darkness: 30
+  Sharpness: 21.2
+  Darkness: 23.1
 --- !u!114 &2015662604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2015662584}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca037f4bdb3f772408f958bc6cd2b647, type: 3}
   m_Name: 
@@ -118866,7 +119336,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2015662584}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
   m_Name: 
@@ -118975,6 +119445,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &2016666635
 Transform:
   m_ObjectHideFlags: 0
@@ -119137,6 +119609,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2020007088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119332,6 +119805,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!50 &2025429549
 Rigidbody2D:
   serializedVersion: 4
@@ -119788,6 +120263,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2031671326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120295,6 +120771,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!231 &2041004701
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -120461,6 +120939,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &2042693229
 Transform:
   m_ObjectHideFlags: 0
@@ -120768,6 +121248,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &2051349459
 GameObject:
   m_ObjectHideFlags: 0
@@ -121007,6 +121488,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &2052767126
 GameObject:
   m_ObjectHideFlags: 0
@@ -121067,6 +121550,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2052767129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121322,6 +121806,7 @@ MonoBehaviour:
   m_PreferredHeight: 2
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2057399919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121537,6 +122022,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &2067410973
 GameObject:
   m_ObjectHideFlags: 0
@@ -121664,6 +122151,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2070501847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121740,6 +122228,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &2074227136
 GameObject:
   m_ObjectHideFlags: 0
@@ -122135,6 +122624,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &2075879164
 Transform:
   m_ObjectHideFlags: 0
@@ -122283,6 +122774,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &2076842991
 Transform:
   m_ObjectHideFlags: 0
@@ -122527,6 +123020,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &2079563533
 Transform:
   m_ObjectHideFlags: 0
@@ -122950,6 +123445,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &2086530588
 GameObject:
   m_ObjectHideFlags: 0
@@ -123045,6 +123541,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &2087665584
 GameObject:
   m_ObjectHideFlags: 0
@@ -123340,6 +123838,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &2091238330
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -123729,6 +124228,8 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!4 &2094983637
 Transform:
   m_ObjectHideFlags: 0
@@ -125032,6 +125533,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2140696444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125120,6 +125622,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &2144123118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125308,6 +125811,7 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!225 &2145402094
 CanvasGroup:
   m_ObjectHideFlags: 0
