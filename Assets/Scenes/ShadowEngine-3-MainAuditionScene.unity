@@ -4751,7 +4751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &93796989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4964,8 +4964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /mousescrollwheel
-  _oscAddresses:
-  - /mousescrollwheel
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -5676,8 +5675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /legcontroller
-  _oscAddresses:
-  - /legcontroller
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -6341,8 +6339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller4
-  _oscAddresses:
-  - /controller4
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -49444,13 +49441,14 @@ GameObject:
   - component: {fileID: 814456977}
   - component: {fileID: 814456976}
   - component: {fileID: 814456974}
+  - component: {fileID: 814456975}
   m_Layer: 0
   m_Name: Reiniger_Hand_Spring_Network_MT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &814456974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49464,6 +49462,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisPuppet: {fileID: 814456973}
+--- !u!114 &814456975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 814456973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6022fc65e1ab547c8b4c381524ccee13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handController: {fileID: 919049730}
+  controllerLeftThumb: {fileID: 1276556544}
+  controllerLeftIndex: {fileID: 256311763}
+  controllerLeftMiddle: {fileID: 1065913605}
+  controllerLeftRing: {fileID: 192860624}
+  controllerLeftPinkie: {fileID: 751486334}
+  controllerRightThumb: {fileID: 1776956958}
+  controllerRightIndex: {fileID: 1269267265}
+  controllerRightMiddle: {fileID: 0}
+  controllerRightRing: {fileID: 0}
+  controllerRightPinkie: {fileID: 0}
+  requireExtendedFingers: 1
+  handsVisible: 0
+  handVisToggle: 97
 --- !u!114 &814456976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62409,8 +62432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /bodycontroller
-  _oscAddresses:
-  - /bodycontroller
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -83038,8 +83060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller1
-  _oscAddresses:
-  - /controller1
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 1351674425}
@@ -86252,8 +86273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller3
-  _oscAddresses:
-  - /controller3
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -97473,8 +97493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller5
-  _oscAddresses:
-  - /controller5
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -102440,8 +102459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller6
-  _oscAddresses:
-  - /controller6
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -103044,8 +103062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscAddress: /controller2
-  _oscAddresses:
-  - /controller2
+  _oscAddresses: []
   _receiveAllAddresses: 0
   _useExplicitConnection: 0
   _explicitConnection: {fileID: 0}
@@ -122061,8 +122078,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   captureKey: k
-  resWidth: 640
-  resHeight: 480
+  resWidth: 1280
+  resHeight: 960
 --- !u!114 &2015662592
 MonoBehaviour:
   m_ObjectHideFlags: 0

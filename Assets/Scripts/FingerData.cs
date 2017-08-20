@@ -34,7 +34,7 @@ public class FingerData : MonoBehaviour {
 
 
         this.currentFrame = hc.GetFrame();
-		GestureList gestures = this.currentFrame.Gestures();
+//		GestureList gestures = this.currentFrame.Gestures();
 
         if (Input.GetKeyDown(KeyCode.A))
         {
